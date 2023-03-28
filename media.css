@@ -1,0 +1,209 @@
+/*==============================
+Desktop
+===============================*/
+@media (max-width: 1600px){
+    .custom-container{
+        width: 100%;  
+    }
+    .hero-area {
+        justify-content: space-between;
+    }
+}
+
+/*==============================
+Desktop
+===============================*/
+@media (max-width: 1400px){
+    .custom-container{
+        width: 1140px;  
+    }
+    .inner-top .offer-box {
+        flex-basis: 23%;
+        text-align: center;
+    }
+}
+/*==============================
+    Tab
+===============================*/
+@media (max-width: 1200px){
+    .custom-container{
+        width: 96%;  
+    }
+    .inner-top .offer-box img {
+        width: 220px;
+    }
+    .main-list {
+        gap: 15px;
+    }
+    .inner-top{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .inner-top .offer-box{
+        flex-basis: 20%; 
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .top-area{
+        height: auto;
+        margin-top: 20px;
+        padding: 20px 15px 20px 15px;
+    }
+    .hero-area {
+        gap: 10px;
+    }
+    .color {
+        margin-top: 20px;
+        padding: 20px 15px 20px 15px;
+    }
+    .popular-area{
+        margin-top: 20px;
+        padding: 20px 15px 20px 15px;
+    }
+}
+
+/*==============================
+    Mobile
+===============================*/
+@media  (max-width: 768px){
+    .custom-container{
+        width: 96%;  
+    }
+    
+    .inner-top{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .inner-top .offer-box img {
+        width: 200px;
+    }
+    
+    .color .hero-heading {
+        padding: 0;
+    }
+    .main-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .popular-heading {
+        text-align: center;
+    }
+   
+    .hero-area {
+        gap: 10px;
+    }
+    .color,.top-area, .popular-area {
+        margin-top: 20px;
+        padding: 10px 8px 10px 8px;
+    }
+    
+}
+
+/*==============================
+    Mobile
+===============================*/
+@media (max-width: 600px){
+    .custom-container{
+        width: 96%;  
+    }
+    .top-area .top-heading, .hero-heading{
+        text-align: center;
+    }
+    .color .hero-heading h1 {
+        font-size: 25px;
+        line-height: 28px;
+        
+    }
+    .color .hero-heading p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .inner-top {
+        padding: 0 3px;
+    }
+      
+}
+/*==============================
+    Mobile
+===============================*/
+@media (max-width: 500px) {
+    .inner-top .offer-box img {
+        width: 140px;
+        padding: 0 5px;
+    }
+    .inner-top .offer-box{
+        flex-basis: 45%; 
+        text-align: center;
+    }
+}
+/*==============================
+    Mobile
+===============================*/
+@media (max-width: 425px){
+    .custom-container{
+        width: 98%;  
+    }
+    
+    .color .hero-heading h1 {
+        font-size: 25px;
+        line-height: 28px;
+        
+    }
+    .color .hero-heading p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .color, .top-area .top-heading{
+        padding: 23px 10px 22px 10px;
+    }
+    .hero-area .inner-hero .picture img {
+        height: 160px;
+    }
+    .hero-area {
+       gap: 0;
+    }
+    .inner-top {
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .hero-heading h1, .top-heading h1 {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .color .hero-heading p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .color,.top-area, .popular-area {
+        margin-top: 10px;
+        padding: 10px 5px 10px 5px;
+    }
+}
+/*==============================
+    Mobile
+===============================*/
+@media (max-width: 425px){
+    .custom-container{
+        width: 98%;  
+    }
+    .hero-area .inner-hero .picture img {
+        width: 100px;
+    }
+    .inner-top .offer-box img {
+        width: 119px;
+        padding: 0 5px;
+    }
+    .color,.top-area, .popular-area, .top-heading {
+        margin-top: 10px;
+        padding: 5px 3px 5px 3px;
+    }
+    .color, .top-area .top-heading {
+        padding: 5px 5px 5px 5px;
+    }
+}
+
